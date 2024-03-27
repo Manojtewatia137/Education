@@ -1,87 +1,101 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
 
-body{
-    overflow-x: hidden;
+body {
+    overflow-x: hidden !important;
+
+
 }
 
 
-.head{
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.head {
     background-color: black;
     color: white;
     padding: 20px;
 }
 
-.navbar{
+.navbar {
     text-align: center;
     /* margin-left: 50px; */
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-left: 50px;
-}
-.nav-item{
-    margin-left: 50px;
-    
 }
 
-.btn{
+.nav-item {
+    margin-left: 50px;
+
+}
+
+.btn {
 
     margin-right: 70px;
 }
 
 /* center-point */
 
-.center-point{
+.center-point {
     height: 500px;
     width: 100%;
-    background-color:rgb(184, 244, 224);
+    background-color: rgb(184, 244, 224);
     border-radius: 3%;
-    border: solid  rgb(184, 244, 224) 5px;
+    border: solid rgb(184, 244, 224) 5px;
 
 }
 
-.Online{
-   background-color: white;
-   padding: 10px;
-   color:rgb(222, 50, 50); 
-   border-left: solid rgb(222, 50, 50); 
+.Online {
+    background-color: white;
+    padding: 10px;
+    color: rgb(222, 50, 50);
+    border-left: solid rgb(222, 50, 50);
 }
 
-.text{
+.text {
     margin-left: 100px;
     margin-top: 60px;
-    
+
 }
 
 
 
-.image{
-   width: 500px;
-   
+.image {
+    width: 500px;
+
 }
 
 
 /* carousel-item */
 
-.carousel-item img{
+.carousel-item img {
     width: 100%;
     height: 80vh;
 }
 
 /* Conference on Education */
 
-.education{
+.education {
     margin-left: 100px;
 
 }
 
-.img0{
+.img0 {
     display: flex;
     margin-top: 50px;
 
 }
 
-.img1{
+.img1 {
     border: solid whitesmoke 10px;
     border-radius: 10px;
     margin-top: 30px;
@@ -89,40 +103,41 @@ body{
     /* overflow: hidden; */
 }
 
-.img2{
+.img2 {
     height: 100%;
-    width:100%;
+    width: 100%;
     border: solid white;
     border-radius: 20px;
     /* overflow: hidden; */
 
 
-    transition-property:transform;
+    transition-property: transform;
     transition-duration: 2s;
-   
-    
+
+
 }
-.first_img{
-    height:20 0px;
-    width:290px;
+
+.first_img {
+    height: 20 0px;
+    width: 290px;
     overflow: hidden;
     border-radius: 30px;
     /* border:solid red 1px */
 }
 
-.img2:hover{
-       transform: scale(1.5);
-        margin-left: 0px;
-        cursor: pointer;
-      
+.img2:hover {
+    transform: scale(1.5);
+    margin-left: 0px;
+    cursor: pointer;
+
 }
 
-.img1:hover{
+.img1:hover {
     background-color: red;
 }
 
 /* our service */
-.img12{
+.img12 {
     border: solid whitesmoke 10px;
     border-radius: 10px;
     margin-top: 30px;
@@ -130,59 +145,83 @@ body{
     /* overflow: hidden; */
 }
 
-.img12:hover{
+.img12:hover {
     background: blue;
 }
 
-.card:hover{
+.card:hover {
     background-color: aqua;
 }
 
 /* team */
-.card-body img{
+.card-body img {
     width: 50%;
     height: 180px;
 }
 
-.card1:hover{
-    background-color:whitesmoke;
+.card1:hover {
+    background-color: whitesmoke;
 
 }
 
 
 
 /* footer */
-.footer{
+.footer {
     background-color: whitesmoke;
 
 }
 
-.logo{
-    margin-left:100px;
+.logo {
+    margin-left: 100px;
     margin-top: 70px;
     display: inline-block;
 
 }
 
-.link{
+.link {
     display: inline-block;
     margin-left: 50px;
 }
 
-.Copyright{
+.Copyright {
     text-align: center;
     margin-top: 50px;
-   border-top:solid wheat;
-   padding: 10px;
+    border-top: solid wheat;
+    padding: 10px;
 }
 
 /* media */
 
-@media (max-width: 600px){
- .skill12{
-    font-size: small;
-    margin-bottom: 20px;
-    margin-top: 20px;
- }
+@media (max-width: 600px) {
+    *  {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    #submit{
+        overflow: hidden;
+        padding-right: 15%;
+    }
+  
+    .carousel-item{
+         height: 300px; 
+    }
+
+    .skill12 {
+        font-size: small;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 70vh;
+    }
+
+
+
 
 }

@@ -116,6 +116,11 @@ span.psw {
    padding: 10px;
 }
 
+.Subscribe{
+  height: 50px;
+  margin-top: 8px;
+}
+
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
@@ -125,4 +130,21 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+@media (max-width: 600px){
+ 
+ .container{
+  margin-left: 0px;
+ }
+  
+
+  .cancelbtn {
+    width: 100%;
+ }
+
+  .avatar{
+    display: none;
+  }
+
 }

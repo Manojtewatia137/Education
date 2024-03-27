@@ -135,4 +135,36 @@ body {
    padding: 10px;
 }
 
-  
+.Subscribe{
+  height: 52px;
+  margin-top: 5px;
+}
+
+/* mediaqure */
+
+
+@media (max-width: 600px){
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+  form{
+   margin-left: 0px;
+   
+  }
+
+  #name{
+    width:100%;
+    /* margin-right: 10px; */
+  }
+ 
+  .avatar{
+    display: none;
+  }
+
+ 
+ }
